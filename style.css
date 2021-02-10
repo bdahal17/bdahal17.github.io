@@ -12,15 +12,25 @@ body {
   font-weight: 300;
   font-size: 1em;
   font-family: "Rokkitt", serif;
+  background-color: gainsboro;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  background-image: url(https://cdn.wallpapersafari.com/47/50/EtTO21.jpg);
 }
 .grid-container {
   height: 100%;
-  border: solid 2px black;
+  border-radius: 5px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  background-image: url(https://www.stratospherenetworks.com/blog/wp-content/uploads/2020/04/abstract-computing-network-concept.jpg);
+  background-image: linear-gradient(
+    to bottom left,
+    gray,
+    rgb(162, 162, 173),
+    rgb(77, 77, 77)
+  );
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -112,31 +122,40 @@ body {
   transform: rotateY(45deg);
   height: 70%;
   z-index: 3;
+  box-shadow: 10px 10px 10px;
 }
 .projectTwo {
   transform: rotateY(30deg);
   height: 80%;
   z-index: 2;
+  box-shadow: 6px 6px 20px;
 }
 .projectThree {
   transform: rotateY(10deg);
   height: 90%;
   z-index: 1;
+  box-shadow: 3px 3px 20px;
 }
 .projectFour {
   height: 100%;
 }
+.projectFour:hover {
+  transform: scale(1.5);
+}
 .projectFive {
-  transform: rotateY(10deg);
+  transform: rotateY(-10deg);
   height: 90%;
+  box-shadow: -3px 3px 20px;
 }
 .projectSix {
-  transform: rotateY(30deg);
+  transform: rotateY(-30deg);
   height: 80%;
+  box-shadow: -6px 6px 20px;
 }
 .projectSeven {
-  transform: rotateY(45deg);
+  transform: rotateY(-45deg);
   height: 70%;
+  box-shadow: -10px 10px 10px;
 }
 .leftProject {
   transition: 1s;
