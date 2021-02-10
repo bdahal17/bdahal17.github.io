@@ -20,9 +20,10 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20191113/pngtree-abstract-wallpaper-desktop-design-image_321813.jpg);
+  background-image: url(https://www.stratospherenetworks.com/blog/wp-content/uploads/2020/04/abstract-computing-network-concept.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 /* -----------------navbar Content---------------------*/
@@ -73,31 +74,83 @@ body {
 /* -----------------midbox Content---------------------*/
 /* -----------------midbox Content---------------------*/
 .midBox {
-  background: transparent;
+  background-color: transparent;
   grid-column: 1 / 4;
   grid-row: 2 / 4;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
+  transition: 1s;
+}
+.midBox:hover {
+  transform: scale(1.04);
 }
 /* -----------------profilebox Content---------------------*/
 /* -----------------profilebox Content---------------------*/
 /* -----------------profilebox Content---------------------*/
 .profileBox {
-  border: solid 2px rgb(255, 252, 252);
   background-color: white;
-  box-shadow: 10px 10px 20px black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  transition: 1s;
+  cursor: pointer;
 }
 .profile {
   border-radius: 50%;
   height: 100px;
   width: 100px;
 }
+.projectImage {
+  height: 100px;
+  width: 100px;
+}
+.projectOne {
+  transform: rotateY(45deg);
+  height: 70%;
+  z-index: 3;
+}
+.projectTwo {
+  transform: rotateY(30deg);
+  height: 80%;
+  z-index: 2;
+}
+.projectThree {
+  transform: rotateY(10deg);
+  height: 90%;
+  z-index: 1;
+}
+.projectFour {
+  height: 100%;
+}
+.projectFive {
+  transform: rotateY(10deg);
+  height: 90%;
+}
+.projectSix {
+  transform: rotateY(30deg);
+  height: 80%;
+}
+.projectSeven {
+  transform: rotateY(45deg);
+  height: 70%;
+}
+.leftProject {
+  transition: 1s;
+}
+.leftProject:hover {
+  transform: translate(100px) scale(2);
+}
+.rightProject {
+  transition: 1s;
+}
+.rightProject:hover {
+  transform: translate(-50%) scale(2);
+}
+
 /* -----------------footer Content---------------------*/
 /* -----------------footer Content---------------------*/
 /* -----------------footer Content---------------------*/
@@ -112,13 +165,13 @@ body {
 .switchHome {
   background: rgb(15, 15, 15);
   width: 50px;
-  height: 10px;
+  height: 7px;
   margin-right: 10px;
   border-radius: 100px;
   cursor: pointer;
 }
 .switchHome:hover {
-  background: rgb(24, 24, 24);
+  background: rgb(51, 51, 51);
 }
 /* 
 /* -----------------extra Content---------------------*/
