@@ -31,6 +31,10 @@ emoji.addEventListener("click", function () {
 prompt.addEventListener("click", function () {
   alert("bdahal17@gmail.com");
 });
+projectFour.addEventListener("click", function () {
+  changingDisplayAboutMe.style.display = "flex";
+});
+
 //------------------------------Card one event-------------
 //------------------------------Card one event-------------
 projectOne.addEventListener("mouseover", function () {
@@ -63,6 +67,7 @@ projectFour.addEventListener("mouseover", function () {
 projectFour.addEventListener("mouseout", function () {
   switchFour.style.backgroundColor = "black";
 });
+
 //------------------------------Card Five event-------------
 //------------------------------Card Five event-------------
 projectFive.addEventListener("mouseover", function () {
