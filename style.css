@@ -81,10 +81,33 @@ body {
   align-items: center;
   display: none;
 }
+.pop h1 {
+  letter-spacing: 5px;
+}
 .emoji {
   cursor: pointer;
+  margin-bottom: 1%;
 }
-
+.insideAbout {
+  width: 75%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60%;
+  margin-top: 1%;
+  font-weight: 500;
+  line-height: 20px;
+}
+.insideAbout ul {
+  margin-left: auto;
+}
+.insideInside {
+  height: 100%;
+  width: 35%;
+}
+.list {
+  height: 100%;
+}
 /* -----------------Middle main Content---------------------*/
 /* -----------------Middle main Content---------------------*/
 /* -----------------Middle main Content---------------------*/
@@ -116,6 +139,10 @@ body {
   align-items: center;
   border-radius: 10px;
   overflow: hidden;
+}
+.projectCards h1 {
+  font-size: 20px;
+  font-weight: 300;
 }
 /*---------Profile picture----------------*/
 .profile {
@@ -185,10 +212,14 @@ body {
   padding: 2px 7px;
   border-radius: 5px;
   background: rgb(87, 152, 196);
+  transition: 1s;
 }
 #aboutMe h3 {
   font-weight: 300;
   letter-spacing: 1px;
+}
+#aboutMe:hover {
+  background-color: rgb(85, 103, 117);
 }
 /*---------Project Five----------------*/
 .projectFive {
