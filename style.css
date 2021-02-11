@@ -129,7 +129,7 @@ body {
 /* -----------------Middle Small Box Content---------------------*/
 /* -----------------Middle Small Box Content---------------------*/
 .projectCards {
-  background: white;
+  background: rgb(255, 255, 255);
   transition: 1s;
   cursor: pointer;
   height: 80%;
