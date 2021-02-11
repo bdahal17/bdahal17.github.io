@@ -79,6 +79,7 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  display: none;
 }
 .emoji {
   cursor: pointer;
