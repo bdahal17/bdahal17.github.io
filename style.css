@@ -164,6 +164,12 @@ body {
   z-index: 3;
 }
 #projectOneImage {
+  background-image: url(/images/virtualpet.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  width: 100%;
+  margin-bottom: auto;
 }
 /*---------Project Two----------------*/
 .projectTwo {
@@ -227,6 +233,11 @@ body {
   transition: 2s;
 }
 #projectFiveImage {
+  background-image: url(https://github.com/bdahal17/Chore-Door/raw/main/Capture.PNG?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  width: 100%;
   margin-bottom: auto;
 }
 /*---------Project Six----------------*/
