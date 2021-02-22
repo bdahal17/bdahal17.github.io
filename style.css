@@ -143,6 +143,7 @@ body {
   align-items: center;
   border-radius: 10px;
   overflow: hidden;
+  text-align: center;
 }
 .projectCards h1 {
   font-size: 20px;
@@ -188,7 +189,13 @@ body {
   z-index: 1;
 }
 #projectThreeImage {
+  background-image: url(https://raw.githubusercontent.com/bdahal17/ElonMuskTribute/master/images/Capture.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  width: 100%;
   margin-bottom: auto;
+  background-position: center;
 }
 /*----------Main Profile Picture Box-------------*/
 /*----------Main Profile Picture Box-------------*/
@@ -242,18 +249,29 @@ body {
   height: 50%;
   width: 100%;
   margin-bottom: auto;
+  background-position: center;
 }
 /*---------Project Six----------------*/
-.projectSix {
-}
 #projectSixImage {
+  background-image: url(https://github.com/bdahal17/Piano-Player/raw/master/images/Capture.PNG?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  width: 100%;
   margin-bottom: auto;
+  background-position: center;
 }
 /*---------Project Seven----------------*/
-.projectSeven {
-}
+
 #projectSevenImage {
+  background-image: url(https://github.com/bdahal17/Tea-Cozy/raw/master/image/Capture.PNG?raw=true);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  width: 100%;
   margin-bottom: auto;
+  background-position: center;
 }
 .leftProject {
   transition: 1s;
